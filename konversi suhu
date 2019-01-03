@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    //konversi suhu celcius ke fahrenheit, reamur, kelvin.
+    float C,F,K,R;
+    cout<<"konversi suhu"<<endl;
+    cout<<"--------------"<<endl<<endl;
+    cout<<"masukkan nilai celciusnya = ";
+    cin>>C;
+    F=C*9/5 + 32;
+    K=C+273.15;
+    R=C*4/5;
+    cout<<"nilai Fahrenheit = "<<F<<endl<<"nilai Kelvin = "<<K<<endl<<"nilai Reamur = "<<R;
+    
+}
